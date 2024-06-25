@@ -1,3 +1,29 @@
 html, body {
     height: 100%;
 }
+
+.div-products {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.div-products-title {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.products-h2 {
+    font-family: sans-serif;
+    color: #474747;
+}
+
+.products-h3 {
+    font-family: sans-serif;
+    color: #D34D8E;
+}
