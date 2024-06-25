@@ -1,3 +1,37 @@
+/* aqui reseta os padding e margin da pagica e fica tudo junto com a tela */
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.header-conteiner{
+    height: 192px;
+    display: flex;
+    align-items: center;
+}
+
+.header-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    margin-left: 104px;
+    border: 1px solid red
+    ;
+}
+.header-content a {
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    color: #C92071;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 36.4px;
+    
+}
+
+
 html, body {
     height: 100%;
 }
