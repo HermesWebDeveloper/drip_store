@@ -1,3 +1,5 @@
-html, body {
-    height: 100%;
+/* aqui reseta os padding e margin da pagica e fica tudo junto com a tela */
+*{
+    padding: 0;
+    margin: 0;
 }
