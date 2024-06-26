@@ -266,3 +266,51 @@ html, body {
     flex-direction: column;
     margin-top: 30px;
 }
+
+.oferta-especial {
+    background-color:white;
+    padding: 5px ;
+    height: 500px;
+    margin: 10px; ;
+    max-width: 1280%;
+    border-radius: 5px;
+    border: 1px solid red;
+
+}
+
+.img-ofep {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.ofep-h2 {
+    font-size: 15px;
+    color:#D34D8E;
+    font-weight: bold;
+}
+
+.ofep-h1 {
+    font-size: 30px;
+    color:rgb(34, 33, 33);
+    font-weight: bold;
+}
+
+.ofep-p {
+    font-size: 16px;
+    color: darkslategray;
+    margin-bottom: 10px
+}
+
+.ofep-botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#f10b7a;
+    color:white;
+    width: 100px;
+    height: 40px;
+    text-decoration: none;
+    border-radius: 5px; 
+    font-weight: bold;
+}
