@@ -33,6 +33,11 @@ html, body {
     font-weight: 400;
 }
 
+.products-h3:hover {
+    cursor: pointer;
+    font-size: 16px;
+}
+
 .products-h3::after {
     content: '→';
     margin-left: 8px;
@@ -53,6 +58,12 @@ html, body {
 .div-products-line-item {
     margin: 10px;
 }
+
+
+.div-products-line-item:hover{
+    cursor: pointer;
+}
+
 
 .div-products-line-item1 {
     background-color: white;
