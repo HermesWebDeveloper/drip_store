@@ -138,9 +138,22 @@
 
 /* -----------------------Final de header---------------------------- */
 
-html, body {
-    height: 100%;
+/*-----------------  aqui começa o carrossel -------------   */
+
+
+
+
+/*-----------------  aqui começa o carrossel -------------   */
+
+
+/*---------------- Aqui começa Coleções em destaque ---------- */
+
+.conteiner-collections {
+    border: 1px solid red;
+    height: 300px;
 }
+
+/* -------------- aqui termina a Coleções em destque --------- */
 
 .div-products {
     display: flex;
