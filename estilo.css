@@ -13,10 +13,11 @@ html, body {
 }
 
 .div-products-title {
-    width: 100%;
+    width: 776px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 }
 
 .products-h2 {
@@ -27,6 +28,15 @@ html, body {
 .products-h3 {
     font-family: sans-serif;
     color: #D34D8E;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.products-h3::after {
+    content: '→';
+    margin-left: 8px;
+    font-size: 1em;
+    color: #D34D8E; 
 }
 
 .products-img {
@@ -34,13 +44,26 @@ html, body {
     height: 150px;
 }
 
+.div-products-line {
+    display: flex;
+    flex-direction: row;
+}
+
+.div-products-line-item {
+    margin: 10px;
+}
+
 .div-products-line-item1 {
     background-color: white;
-    padding: 30px;
+    padding: 12px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
 }
 
 .products-p-off {
     font-family: sans-serif;
+    position: absolute;
     border-radius: 30px / 30px;
     padding: 5px;
     padding-left: 10px;
@@ -84,4 +107,10 @@ html, body {
     color: #474747;
     margin-top: 7px;
     font-weight: 600;
+}
+
+.div-products-img-div {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
 }
