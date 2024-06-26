@@ -2,7 +2,8 @@
 *{
     padding: 0;
     margin: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Inter", sans-serif;
+
 }
 .header-conteiner{
     width: 1440px;
@@ -39,11 +40,10 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 253px;
+    width: 255px;
     height: 44px;
     color: #C92071;
     font-weight: 600px;
-    font: inter;
     text-decoration: none;
     font-size: 36.4px;
     
@@ -96,6 +96,7 @@
 .navigation-header .ol-header{
     list-style-type: none;
     display: flex;
+
 }
 .navigation-header .ol-header a{
     text-decoration: none;
@@ -103,7 +104,7 @@
     display: flex;
     color: #474747;
     font-size: 18px;
-    justify-content: space-between;
+
 }
 
 .navigation-header .ol-header a:hover{
@@ -127,10 +128,12 @@
     font-size: 14px;
     background-color: #C92071;
     color: #F5F5F5;
+    cursor: pointer;
 }
 
 .carrinho {
     width: 60px;
+    cursor: pointer;
 }
 
 /* -----------------------Final de header---------------------------- */
