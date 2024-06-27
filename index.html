@@ -1,215 +1,177 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
-    <title>Responsive Footer</title>
-
-    <style>
-        :root {
-    --color-neutral-0: #0e0c0c;
-    --color-neutral-10: #171717;
-    --color-neutral-30: #a8a29e;
-    --color-neutral-40: #f5f5f5;
-
-}
-
-* {
-    font-family: 'Inter', sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    letter-spacing: 1px;
-}
-
-main {
-    height: 80vh;
-}
-
-footer {
-    width: 100%;
-    color: var(--color-neutral-40);
-}
-
-.footer-link {
-    text-decoration: none;
-}
-
-#footer_content {
-    background-color: var(--color-neutral-10);
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    padding: 3rem 3.5rem;
-}
-
-#footer_contacts h1 {
-    margin-bottom: 0.75rem;
-}
-
-#footer_social_media {
-    display: flex;
-    gap: 2rem;
-    margin-top: 1.5rem;
-} 
-
-#footer_social_media .footer-link {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 2.5rem;
-    width: 2.5rem;
-    color: var(--color-neutral-40);
-    border-radius: 50%;
-
-}
-
-#footer_social_media .footer-link i {
-    font-size: 1.25rem;    
-}
-
-#instagram {
-    background: linear-gradient(#7f37c9, #ff2992, #ff9807);
-}
-
-#facebook {
-    background-color: #4267b3;
-}
-
-#Twitter {
-    background-color: #1da1f2;
-}
-
-.footer-list {
-    display: flex;
-    flex-direction: column;
-    gap: 0.75rem;
-    list-style: none;
-}
-
-.footer-list .footer-link {
-    color: var(--color-neutral-30);
-
-}
-
-
-#footer_copyright {
-    display: flex;
-    justify-content: center;
-    background-color: var(--color-neutral-0);
-    font-size: 0.9rem;
-    padding: 1.5rem;
-    font-weight: 100;
-}
-
-@media screen and (max-width: 768px) {
-    #footer_content {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 2rem;
-    }
-}
-
-@media screen and (max-width: 426px) {
-    #footer_content {
-        grid-template-columns: repeat(1, 1fr);
-        padding: 3rem 2rem;
-    }
-}
-    </style>
+    <title>Ecommerce</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="estilo.css">
 </head>
+
 <body>
-    <main>
-        
-    </main>
-    <footer>
-        <div id="footer_content">
-            <div id="footer_contacts">
-                <h1>Digital Stone</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    <header class="header-conteiner">
+        <nav class="nav-header">
+                <a class="digital-store-header" href="#"><img class="logo-digital" src="/images/img-header/logo-digital.png" alt=""> Digital Store</a>
+                <input class="input-header" type="text" name="" id="" placeholder="Pesquisar produto..." >
+                <img class="search-icon" src="images/img-header/lupa.png" alt="">
+                <a class="cadastrar" href="">Cadastre-se</a>
+            
+                <div class="navigation-header">
+                  <ol class="ol-header">
+                    <a class="" href=""><li>Home</li></a>
+                    <a href=""><li>Produtos</li></a>
+                    <a href=""><li>Categorias</li></a>
+                    <a href=""><li>Meus Pedidos</li></a>
 
-                <div id="footer_social_media">
-                    <a href="#" class="footer-link" id="instagram">
-                        <i class="fa-brands fa-instagram"></i>
-                    </a>
+                  </ol>
+            </div>
+            <div class="style-button">
+                <button class="entrar-header">Entrar</button>
+                <img class="carrinho" src="images/img-header/carrinho-inteligente.png" alt="">
+            </div>
+        </nav>
+           
+    </header>
 
-                    <a href="#" class="footer-link" id="facebook">
-                        <i class="fa-brands fa-facebook-f"></i>
-                    </a>
-
-                    <a href="#" class="footer-link" id="Twitter">
-                        <i class="fa-brands fa-twitter"></i>
-                    </a>
+    
+    <div>Nav</div>
+    <div>Hero</div>
+    <div>Coleções em Destaque</div>
+    <div class="div-products">
+        <div class="div-products-title">
+            <h2 class="products-h2">Produtos em Alta</h2>
+            <h3 class="products-h3">Ver todos</h3>
+        </div>
+        <div class="div-products-line">
+            <div class="div-products-line-item">
+                <div class="div-products-line-item1">
+                    <p class="products-p-off">30% OFF</p>
+                    <div class="div-products-img-div">
+                        <img class="products-img" src="images/tenis1.jpg">
+                    </div>
+                </div>
+                <div class="div-products-line-item2">
+                    <p class="products-p1">Tênis</p>
+                    <p class="products-p2">K-Swiss V8 - Masculino</p>
+                    <div class="products-price">
+                        <p class="products-p3">$ 200</p><p class="products-p4">$ 100</p>
+                    </div>
                 </div>
             </div>
-            
-            <ul class="footer-list">
-                <li>
-                    <h3>Informações</h3>
-                </li>
-                <li>
-                    <a href="#" class="footer-link">Sobre Drip Store</a>
-                </li>
-                <li>
-                    <a href="#" class="footer-link">Segurança</a>
-                </li>
-                <li>
-                    <a href="#" class="footer-link">Wishlist</a>
-                </li>
-                <li>
-                    <a href="#" class="footer-link">Blog</a>
-                </li>
-                <li>
-                    <a href="#" class="footer-link">Trabalhe conosco</a>
-                </li>
-                <li>
-                    <a href="#" class="footer-link">Meus pedidos</a>
-                </li>
-            </ul>
-
-            <ul class="footer-list">
-                <li>
-                    <h3>Categoria</h3>
-                </li>
-                <li>
-                    <a href="#" class="footer-link">Camisetas</a>
-                </li>
-                <li>
-                    <a href="#" class="footer-link">Calças</a>
-                </li>
-                <li>
-                    <a href="#" class="footer-link">Bonés</a>
-                </li>
-                <li>
-                    <a href="#" class="footer-link">Headphones</a>
-                </li>
-                <li>
-                    <a href="#" class="footer-link">Tenis</a>
-                </li>
-            </ul>
-
-            <div id="footer_subscribe">
-                <h3>Contatos</h3>
-
-                <p>
-                    Av. Santos Dumont,1510- 1°
-                    andar - Aldeota, Fortaleza - 
-                    CE, 60150-161
-
-                    (85)3051- 3411
-                
-                </p>
-
-            
+            <div class="div-products-line-item">
+                <div class="div-products-line-item1">
+                    <p class="products-p-off">30% OFF</p>
+                    <div class="div-products-img-div">
+                        <img class="products-img" src="images/tenis1.jpg">
+                    </div>
+                </div>
+                <div class="div-products-line-item2">
+                    <p class="products-p1">Tênis</p>
+                    <p class="products-p2">K-Swiss V8 - Masculino</p>
+                    <div class="products-price">
+                        <p class="products-p3">$ 200</p><p class="products-p4">$ 100</p>
+                    </div>
+                </div>
+            </div>
+            <div class="div-products-line-item">
+                <div class="div-products-line-item1">
+                    <!-- <p class="products-p-off">30% OFF</p> -->
+                    <div class="div-products-img-div">
+                        <img class="products-img" src="images/tenis1.jpg">
+                    </div>
+                </div>
+                <div class="div-products-line-item2">
+                    <p class="products-p1">Tênis</p>
+                    <p class="products-p2">K-Swiss V8 - Masculino</p>
+                    <div class="products-price">
+                        <p class="products-p3">$ 200</p><p class="products-p4">$ 100</p>
+                    </div>
+                </div>
+            </div>
+            <div class="div-products-line-item">
+                <div class="div-products-line-item1">
+                    <!-- <p class="products-p-off ">30% OFF</p> -->
+                    <div class="div-products-img-div">
+                        <img class="products-img" src="images/tenis1.jpg">
+                    </div>
+                </div>
+                <div class="div-products-line-item2">
+                    <p class="products-p1">Tênis</p>
+                    <p class="products-p2">K-Swiss V8 - Masculino</p>
+                    <div class="products-price">
+                        <p class="products-p3">$ 200</p><p class="products-p4">$ 100</p>
+                    </div>
+                </div>
             </div>
         </div>
-
-        <div id="footer_copyright">
-            &#169
-            2024 Digital Stone
+        <div class="div-products-line">
+            <div class="div-products-line-item">
+                <div class="div-products-line-item1">
+                    <p class="products-p-off">30% OFF</p>
+                    <div class="div-products-img-div">
+                        <img class="products-img" src="images/tenis1.jpg">
+                    </div>
+                </div>
+                <div class="div-products-line-item2">
+                    <p class="products-p1">Tênis</p>
+                    <p class="products-p2">K-Swiss V8 - Masculino</p>
+                    <div class="products-price">
+                        <p class="products-p3">$ 200</p><p class="products-p4">$ 100</p>
+                    </div>
+                </div>
+            </div>
+            <div class="div-products-line-item">
+                <div class="div-products-line-item1">
+                    <p class="products-p-off">30% OFF</p>
+                    <div class="div-products-img-div">
+                        <img class="products-img" src="images/tenis1.jpg">
+                    </div>
+                </div>
+                <div class="div-products-line-item2">
+                    <p class="products-p1">Tênis</p>
+                    <p class="products-p2">K-Swiss V8 - Masculino</p>
+                    <div class="products-price">
+                        <p class="products-p3">$ 200</p><p class="products-p4">$ 100</p>
+                    </div>
+                </div>
+            </div>
+            <div class="div-products-line-item">
+                <div class="div-products-line-item1">
+                    <!-- <p class="products-p-off">30% OFF</p> -->
+                    <div class="div-products-img-div">
+                        <img class="products-img" src="images/tenis1.jpg">
+                    </div>
+                </div>
+                <div class="div-products-line-item2">
+                    <p class="products-p1">Tênis</p>
+                    <p class="products-p2">K-Swiss V8 - Masculino</p>
+                    <div class="products-price">
+                        <p class="products-p3">$ 200</p><p class="products-p4">$ 100</p>
+                    </div>
+                </div>
+            </div>
+            <div class="div-products-line-item">
+                <div class="div-products-line-item1">
+                    <!-- <p class="products-p-off">30% OFF</p> -->
+                    <div class="div-products-img-div">
+                        <img class="products-img" src="images/tenis1.jpg">
+                    </div>
+                </div>
+                <div class="div-products-line-item2">
+                    <p class="products-p1">Tênis</p>
+                    <p class="products-p2">K-Swiss V8 - Masculino</p>
+                    <div class="products-price">
+                        <p class="products-p3">$ 200</p><p class="products-p4">$ 100</p>
+                    </div>
+                </div>
+            </div>
         </div>
-    </footer>
+    </div>
+    <div>Oferta especial</div>
+    <div>Footer</div> 
 </body>
+
 </html>
