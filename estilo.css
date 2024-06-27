@@ -269,35 +269,46 @@ html, body {
 
 .oferta-especial {
     background-color:white;
-    padding: 5px ;
-    height: 500px;
-    margin: 10px; ;
-    max-width: 1280%;
+    padding: 20px ;
+    height: 600px;
+    padding: 20px;
+    margin:0 auto;
+    width: 2000px;
     border-radius: 5px;
     border: 1px solid red;
 
 }
 
-.img-ofep {
-    display: flex;
-    flex-direction: row;
+.text-oferta {
+    display: inline-flex;  
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+} 
 
+.img-ofep {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:center;
+    margin-left: 50px;
+    margin-top: auto;
 }
 
 .ofep-h2 {
-    font-size: 15px;
+    font-size: 20px;
     color:#D34D8E;
     font-weight: bold;
 }
 
 .ofep-h1 {
-    font-size: 30px;
+    font-size: 60px;
     color:rgb(34, 33, 33);
     font-weight: bold;
 }
 
 .ofep-p {
-    font-size: 16px;
+    font-size: 20px;
     color: darkslategray;
     margin-bottom: 10px
 }
@@ -308,9 +319,11 @@ html, body {
     align-items: center;
     background-color:#f10b7a;
     color:white;
-    width: 100px;
-    height: 40px;
+    text-decoration: none;
+    width: 120px;
+    height: 60px;
     text-decoration: none;
     border-radius: 5px; 
+    font-size: 21px;
     font-weight: bold;
 }
