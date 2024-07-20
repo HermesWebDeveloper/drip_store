@@ -271,7 +271,7 @@ html, body {
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    gap: 70px;
+    gap: 30px;
     background-color:white;
     height: 553px;
     padding: 10px;
