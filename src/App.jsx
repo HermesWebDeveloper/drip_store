@@ -4,14 +4,16 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import OfertaESpecial from './components/OfertaESpecial'
 import NovasColecoes from './components/NovasColecoes'
+import Rodape from './components/Rodape'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-    <NovasColecoes></NovasColecoes>
+      <NovasColecoes></NovasColecoes>
       <OfertaESpecial />
+      <Rodape />
     </>
   )
 }
