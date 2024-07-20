@@ -266,3 +266,80 @@ html, body {
     flex-direction: column;
     margin-top: 30px;
 }
+
+.oferta-especial {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color:white;
+    height: 553px;
+    padding: 10px;
+    margin:0 auto;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.text-ofep {
+    display: inline-flex;  
+    flex-direction: column;
+    align-items: center;
+    width: 589px;
+    height: 400px;
+    margin:10px;
+    padding-left: 30px;
+} 
+
+.img-ofep {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:center;
+    margin-top: 40px;
+}
+
+.ofep-h2 {
+    display: flex;
+    align-self: flex-start;
+    font-size: 15px;
+    color:#D34D8E;
+    font-weight: bold;
+    width: 126px;
+    height: 20px;
+    margin-top: 20px;
+}
+
+.ofep-h1 {
+    font-size: 55px;
+    color:rgb(34, 33, 33);
+    width: 585px;
+    height: 100px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.ofep-p {
+    font-size: 21px;
+    color: darkslategray;
+    margin-bottom: 10px;
+    width: 589px;
+    height: 112px;
+    margin-top: 40px;
+    margin-bottom: 30px;    
+}
+
+.ofep-bt {
+    display: flex;
+    justify-content: center;
+    align-self: flex-start;
+    background-color:#f10b7a;
+    color:white;
+    text-decoration: none;
+    width: 200px;
+    height: 45px;
+    text-decoration: none;
+    border-radius: 5px; 
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px; 
+}
