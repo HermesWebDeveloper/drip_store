@@ -1,0 +1,23 @@
+
+section.colecoes-destaque {
+    background-color: rgb(223, 14, 14);
+    padding-left: 100px;
+    padding-right: 100px;
+    /*padding-top: 971px;*/
+
+    display: flex;
+    flex-direction: row;
+    flex-flow: row;
+    text-align: left
+}
+
+div.product-card {
+    background-color: rgba(216, 227, 242, 1);
+    border: 10px solid rgb(14, 13, 13)
+}
+
+div.supreme {
+    padding-left: 15px;
+}
+
+
