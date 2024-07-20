@@ -1,5 +1,5 @@
 import "./OfertaESpecial.css";
-import tenisEspecial from "../assets/tenisEspecial.png"
+import tenisEspecial from "../assets/tenisEspecial.png";
 
 export default function OfertaESpecial() {
     return (
