@@ -1,7 +1,7 @@
 import "./NovasColecoes.css";
-import nomevari1 from "../assets/Camisa Supreme.png"
-import nomevari2 from "../assets/Tenis Adids.png" 
-import nomevari3 from "../assets/Fone Bass.png" 
+import nomevari1 from "../assets/CamisaSupreme.png"
+import nomevari2 from "../assets/TenisAdids.png" 
+import nomevari3 from "../assets/FoneBass.png" 
 
 
 export default function NovasColecoes() {
