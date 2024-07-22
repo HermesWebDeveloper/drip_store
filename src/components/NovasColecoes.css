@@ -1,23 +1,96 @@
-
 section.colecoes-destaque {
-    background-color: rgb(223, 14, 14);
-    padding-left: 100px;
-    padding-right: 100px;
-    /*padding-top: 971px;*/
-
+    border: px solid black;
+    background: #f9f8fe;
+    /* padding-left: 100px;
+    padding-right: 100px; */
     display: flex;
-    flex-direction: row;
-    flex-flow: row;
-    text-align: left
+    transform: translateY(5);
+    padding-top: 104px;
+    justify-content: space-around;
+
 }
 
-div.product-card {
-    background-color: rgba(216, 227, 242, 1);
-    border: 10px solid rgb(14, 13, 13)
+div.card-produto {
+    border: px solid #0a0a0a;
+    transform: translateX(145px);
+
 }
 
-div.supreme {
-    padding-left: 15px;
+div.fundo-bg {
+    background: #d8e3f2;
+    width: 405px;
+    height: 251px;
+    top: 971px;
+    left: 154px;
+    border-radius: 8px;
+    border: px solid yellowgreen;
+    transform: translateY(-70px);
+
+
+
+
 }
 
+div.rotulo {
+    position: absolute;
+    text-align: left;
+    top: 35%;
+    left: 6%;
+    border: px solid black;
 
+}
+
+div.imagem-produtos {
+    position: absolute;
+    /* left: 40%; */
+    border: px solid red;
+    transform: translateX(67.5%);
+
+}
+
+button {
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+    transform: translateY(5%);
+    box-sizing: border-box;
+    width: 153px;
+    height: 48px;
+    border-radius: 8px;
+    border: none;
+
+
+}
+
+button:hover{
+    color: red;
+    background-color: #b5b6f2;
+    transition: 0.3s;
+}
+b.button-comprar {
+    color: #c92071;
+
+}
+
+b.button-desconto {
+    background: rgba(231, 255, 134, 1);
+    position: absolute;
+    width: 96px;
+    left: 30px;
+    top: 30px;
+    padding: 5px 15px 5px 15px;
+    gap: 10px;
+    border-radius: 29px 0px 0px 0px;
+    border-radius: 54px;
+    text-align: center;
+}
+
+p.id {
+    background-color: #f9f8fe;
+    padding-left: 195px;
+    padding-top: 15px;
+    border: px solid rgb(0, 0, 0);
+    font-size: larger;
+    color: rgba(71, 71, 71, 1);
+    text-align: left;
+}
