@@ -5,12 +5,13 @@ import './App.css'
 import OfertaESpecial from './components/OfertaESpecial'
 import NovasColecoes from './components/NovasColecoes'
 import Rodape from './components/Rodape'
+import Tech3 from './TECH3'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
+      <Tech3 />
       <NovasColecoes></NovasColecoes>
       <OfertaESpecial />
       <Rodape />
