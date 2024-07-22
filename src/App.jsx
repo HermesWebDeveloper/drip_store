@@ -5,14 +5,14 @@ import './App.css'
 import OfertaESpecial from './components/OfertaESpecial'
 import NovasColecoes from './components/NovasColecoes'
 import Rodape from './components/Rodape'
-import Tech3 from './TECH3'
+import Tech3 from './components/TECH3'
 
 function App() {
 
   return (
     <>
-      <Tech3 />
       <NovasColecoes></NovasColecoes>
+      <Tech3 />
       <OfertaESpecial />
       <Rodape />
     </>
