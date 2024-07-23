@@ -22,9 +22,6 @@ footer {
     color: var(--color-neutral-40);
 }
 
-.footer-link {
-    text-decoration: none;
-}
 
 .logo-footer {
     display: flex;
@@ -70,18 +67,6 @@ footer {
 
 #footer_social_media .footer-link i {
     font-size: 1.25rem;
-}
-
-#instagram {
-    background: linear-gradient(#7f37c9, #ff2992, #ff9807);
-}
-
-#facebook {
-    background-color: #4267b3;
-}
-
-#twitter {
-    background-color: #1da1f2;
 }
 
 .footer-list {

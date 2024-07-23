@@ -85,7 +85,7 @@ export default function Rodape() {
             </div>
 
             <div id="footer_copyright">
-                @ 2024 Digital Store
+                @ 2024 Digital College
             </div>
         </footer>
 
