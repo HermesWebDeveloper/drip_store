@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <NovasColecoes></NovasColecoes>
-      <ProductListing />
+      <ProductListing tamanho={8}/>
       <OfertaESpecial />
       <Rodape />
     </>

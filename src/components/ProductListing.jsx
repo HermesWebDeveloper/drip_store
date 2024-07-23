@@ -4,7 +4,7 @@ import produtos from './ProductListingData.json'
 import './ProductListing.css'
 import ProductCard from "./ProductCard";
 
-function ProductListing() {
+function ProductListing({ tamanho }) {
 
     let [listaExibicao, setListaExibicao] = useState([]);
 
@@ -15,9 +15,13 @@ function ProductListing() {
     const exibirProdutos = () => {
         let novaListaExibicao = [];
         for (let i = 0; i < produtos.length; i++) {
-            if (i < 8) {
+            if (tamanho) {
+                if (i < tamanho) {
+                    novaListaExibicao.push(ProductCard(produtos[i]));
+                }
+            } else {
                 novaListaExibicao.push(ProductCard(produtos[i]));
-            };
+            }
         };
         setListaExibicao(novaListaExibicao);
     };
@@ -35,6 +39,6 @@ function ProductListing() {
             </div>
         </>
     )
-}
+};
 
 export default ProductListing

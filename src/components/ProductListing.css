@@ -55,6 +55,16 @@
   margin-bottom: 30px;
 }
 
+@media (max-width: 768px) {
+  .div-products-content {
+    width: 600px;
+  }
+
+  .div-products-title {
+    width: 470px;
+  }
+}
+
 .div-products-item:hover {
   cursor: pointer;
   transform: scale(1.1); /* Aumenta o tamanho para 110% */
