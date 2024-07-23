@@ -1,0 +1,66 @@
+[
+    {
+        "desconto": "30% OFF",
+        "imagem": "src/assets/tenis1.jpg",
+        "tipo": "Tênis",
+        "nome": "K-Swiss V8 - Masculino",
+        "preco_normal": 200,
+        "preco_descontado": 100
+    },
+    {
+        "desconto": "20% OFF",
+        "imagem": "src/assets/tenis1.jpg",
+        "tipo": "Tênis",
+        "nome": "Nike Air Max - Masculino",
+        "preco_normal": 250,
+        "preco_descontado": 200
+    },
+    {
+        "desconto": "20% OFF",
+        "imagem": "src/assets/tenis1.jpg",
+        "tipo": "Tênis",
+        "nome": "Nike Air Max - Masculino",
+        "preco_normal": 250,
+        "preco_descontado": 200
+    },
+    {
+        "desconto": "20% OFF",
+        "imagem": "src/assets/tenis1.jpg",
+        "tipo": "Tênis",
+        "nome": "Nike Air Max - Masculino",
+        "preco_normal": 250,
+        "preco_descontado": 200
+    },
+    {
+        "desconto": "20% OFF",
+        "imagem": "src/assets/tenis1.jpg",
+        "tipo": "Tênis",
+        "nome": "Nike Air Max - Masculino",
+        "preco_normal": 250,
+        "preco_descontado": 200
+    },
+    {
+        "desconto": "20% OFF",
+        "imagem": "src/assets/tenis1.jpg",
+        "tipo": "Tênis",
+        "nome": "Nike Air Max - Masculino",
+        "preco_normal": 250,
+        "preco_descontado": 200
+    },
+    {
+        "desconto": "20% OFF",
+        "imagem": "src/assets/tenis1.jpg",
+        "tipo": "Tênis",
+        "nome": "Nike Air Max - Masculino",
+        "preco_normal": 250,
+        "preco_descontado": 200
+    },
+    {
+        "desconto": "20% OFF",
+        "imagem": "src/assets/tenis1.jpg",
+        "tipo": "Tênis",
+        "nome": "Nike Air Max - Masculino",
+        "preco_normal": 250,
+        "preco_descontado": 200
+    }
+]
