@@ -14,12 +14,21 @@
     border-radius: 5px;
 }
 
+.part2 {
+    display: flex !important;
+    justify-content: flex-start !important;
+}
+
+.part3 {
+    justify-content: start;
+}
+
 /* Classe para modificação dos textos do componente */
 
 .text-ofep {
     display: inline-flex;  
     flex-direction: column;
-    align-items: center;
+    align-items: left;
     width: 589px;
     height: 400px;
     margin:10px;
@@ -44,7 +53,7 @@
     font-size: 15px;
     color:#D34D8E;
     font-weight: bold;
-    width: 126px;
+    /* width: 126px; */
     height: 20px;
     margin-top: 20px;
 }
@@ -63,6 +72,7 @@
 .ofep-p {
     font-size: 21px;
     color: darkslategray;
+    text-align: left;
     margin-bottom: 10px;
     width: 589px;
     height: 112px;
@@ -74,8 +84,7 @@
 
 .ofep-bt {
     display: flex;
-    justify-content: center;
-    align-items: center; 
+    justify-content: center; 
     background-color: #f10b7a;
     color: white;
     text-decoration: none;
@@ -85,4 +94,8 @@
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 10px;
+}
+
+.container {
+    text-align: left;
 }
