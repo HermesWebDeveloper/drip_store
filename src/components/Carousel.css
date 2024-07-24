@@ -57,18 +57,18 @@ p {
 }
 
 .btn {
-    background-color: #C92071;
-    color: white;
-    font-weight: bold;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+    background-color: #C92071 !important;
+    color: white !important; 
+    font-weight: bold !important;
+    padding: 10px 20px !important;
+    border: none !important;
+    border-radius: 5px !important;
+    cursor: pointer !important;
+    transition: background-color 0.3s ease !important;
 }
 
 .btn:hover {
-    background-color: #C92071;
+    background-color: #C92071 !important;
 }
 
 .image-sneakers {
@@ -86,7 +86,6 @@ p {
     top: 272px;
     right: 10px;
     transform: translateY(-50%);
-    opacity: 0.4;
 }
 
 .carousel.carousel-slider .control-arrow {
