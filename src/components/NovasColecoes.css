@@ -9,7 +9,6 @@ section.colecoes-destaque {
     gap: 10px;
     flex-wrap: wrap;
     padding-block: 15px;
-
 }
 
 div.card-produto {
@@ -21,7 +20,7 @@ div.card-produto {
     top: 971px;
     left: 154px;
     border-radius: 8px;
-    
+
 
 }
 
@@ -41,7 +40,7 @@ div.imagem-produtos {
     position: absolute;
     border: px solid red;
     transform: translateX(67.5%);
-    
+
 
 }
 
@@ -58,13 +57,13 @@ button {
 
 }
 
-button:hover{
+button:hover {
     background-color: #b5b6f2;
     transition: 0.2s;
     color: white;
-    
-    
-    
+
+
+
 }
 
 b.button-desconto {
@@ -81,52 +80,53 @@ b.button-desconto {
 }
 
 
-strong.nome-chama{
+strong.nome-chama {
     color: rgb(80, 79, 79);
     position: relative;
 
 }
 
-section.colecoes-dq-2{
+section.colecoes-dq-2 {
     display: flex;
     margin-top: 20px;
     justify-content: space-around;
     border: px solid black;
     padding: 12px;
     background-color: #f9f8fe;
-  
-    }
-    p.id-2{
-        border: px solid rgb(31, 117, 5);
-        display: flex;
-        margin-top: 25px;
-        background-color:#f9f8fe;
-        flex-flow: ;
-        
-    }
-    p.titulo{
-        text-align: center;
-        padding-block: 15px;
-    
-    }
 
-    img.icons{
-        background-color: rgb(255, 255, 255);
-        border-radius: 50%;
-    }
-    p.id{
-        background-color: #f9f8fe;
-        margin-left: 10px;
-        padding-block: 18px;
-        padding-left: 130px;
-    }
-    
-    p.rotulo-p{
-        background-color: rgb(252, 252, 252);
-        width: 50%;
-        margin: auto;
-        text-align: center;
-        margin-left: ;
-    }
+}
 
-    
+p.id-2 {
+    border: px solid rgb(31, 117, 5);
+    display: flex;
+    margin-top: 25px;
+    background-color: #f9f8fe;
+
+}
+
+p.titulo {
+    text-align: center;
+    padding-block: 15px;
+
+}
+
+img.icons {
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    margin-left: 30px;
+}
+
+p.id {
+    background-color: #f9f8fe;
+    margin-left: 10px;
+    padding-block: 18px;
+    padding-left: 130px;
+}
+
+p.rotulo-p {
+    background-color: rgb(252, 252, 252);
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    margin-left: 20px
+}

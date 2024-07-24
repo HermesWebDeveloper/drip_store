@@ -88,3 +88,11 @@ p {
     transform: translateY(-50%);
     opacity: 0.4;
 }
+
+.carousel.carousel-slider .control-arrow {
+    height: 100%;
+}
+
+.control-arrow {
+    width: 70px;
+}

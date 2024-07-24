@@ -4,10 +4,10 @@ import nomevari1 from "../assets/CamisaSupreme.png"
 import nomevari2 from "../assets/TenisAdids.png" 
 import nomevari3 from "../assets/FoneBass.png" 
 
-import var4 from "src/assets/calca.svg"
-import var5 from "src/assets/tenis.svg"
-import var6 from "src/assets/fone.svg"
-import var7 from "src/assets/camisa-rosa.svg"
+import var4 from "../assets/help-20px.svg"
+import var5 from "../assets/help-20px.svg"
+import var6 from "../assets/help-20px.svg"
+import var7 from "../assets/help-20px.svg"
 
 export default function NovasColecoes() {
 
