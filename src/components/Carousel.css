@@ -1,0 +1,90 @@
+/* Importação da fonte Inter */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700;800&display=swap');
+
+.carousel .control-dots .dot {
+    background-color: #ccc;
+}
+
+.carousel .control-dots .dot.selected {
+    background-color: #C92071;
+}
+
+.slide {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #F5F5F5;
+}
+
+.div-maior {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #F5F5F5;
+}
+
+.info {
+    max-width: 50%;
+    text-align: left;
+}
+
+.yellow-text {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.75px;
+    text-align: left;
+    color: #F6AA1C;
+}
+
+h1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 66px;
+    letter-spacing: 1px;
+    text-align: left;
+    margin: 10px 0;
+    color: #333;
+}
+
+p {
+    margin: 10px 0;
+    color: #6c757d;
+}
+
+.btn {
+    background-color: #C92071;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #C92071;
+}
+
+.image-sneakers {
+    max-width: 50%;
+}
+
+.image-sneakers img {
+    width: 100%;
+    height: auto;
+}
+
+.pontinhos {
+    width: 140px;
+    height: 140px;
+    top: 272px;
+    right: 10px;
+    transform: translateY(-50%);
+    opacity: 0.4;
+}
