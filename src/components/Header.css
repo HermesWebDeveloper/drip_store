@@ -87,11 +87,11 @@ a:hover {
 }
 
 .nav-link {
-    color: #474747;
+    color: #474747 !important;
 }
 
 .nav-link:hover {
-    color: #C92071;
+    color: #C92071 !important;
 }
 
 .nav-item {
