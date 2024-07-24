@@ -20,6 +20,7 @@ a:hover {
 
 .header {
     align-items: center;
+    margin-bottom: 30px;
 }
 
 .text-digital-store {
@@ -91,6 +92,10 @@ a:hover {
 
 .nav-link:hover {
     color: #C92071;
+}
+
+.nav-item {
+    margin-right: 40px;
 }
 
 .active {

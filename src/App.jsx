@@ -11,7 +11,6 @@ export default function App() {
   return (
     <>
       <Header />
-      <NovasColecoes>
       <Carrossel />
       {/* <NovasColecoes/> */}
       <ProductListing tamanho={8} />
