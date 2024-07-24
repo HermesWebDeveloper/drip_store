@@ -1,23 +1,132 @@
-
 section.colecoes-destaque {
-    background-color: rgb(223, 14, 14);
-    padding-left: 100px;
-    padding-right: 100px;
-    /*padding-top: 971px;*/
+    border: px solid black;
+    background: #f9f8fe;
 
+    /* padding-left: 100px;
+    padding-right: 100px; */
     display: flex;
-    flex-direction: row;
-    flex-flow: row;
-    text-align: left
+    padding-top: 51px;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding-block: 15px;
+
 }
 
-div.product-card {
-    background-color: rgba(216, 227, 242, 1);
-    border: 10px solid rgb(14, 13, 13)
+div.card-produto {
+    border: px solid #0a0a0a;
+    transform: translateX(145px);
+    background: #d8e3f2;
+    width: 405px;
+    height: 251px;
+    top: 971px;
+    left: 154px;
+    border-radius: 8px;
+    
+
 }
 
-div.supreme {
-    padding-left: 15px;
+
+div.rotulo {
+    position: absolute;
+    text-align: left;
+    top: 35%;
+    left: 6%;
+    border: px solid black;
+    text-align: left;
+    position: fixed;
+
+}
+
+div.imagem-produtos {
+    position: absolute;
+    border: px solid red;
+    transform: translateX(67.5%);
+    
+
+}
+
+button {
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    margin-top: 20px;
+    box-sizing: border-box;
+    width: 153px;
+    height: 48px;
+    border-radius: 8px;
+    border: none;
+    color: #c92071;
+
+}
+
+button:hover{
+    background-color: #b5b6f2;
+    transition: 0.2s;
+    color: white;
+    
+    
+    
+}
+
+b.button-desconto {
+    background: rgba(231, 255, 134, 1);
+    position: absolute;
+    width: 96px;
+    left: 30px;
+    top: 30px;
+    padding: 5px 15px 5px 15px;
+    gap: 10px;
+    border-radius: 29px 0px 0px 0px;
+    border-radius: 54px;
+    text-align: center;
 }
 
 
+strong.nome-chama{
+    color: rgb(80, 79, 79);
+    position: relative;
+
+}
+
+section.colecoes-dq-2{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+    border: px solid black;
+    padding: 12px;
+    background-color: #f9f8fe;
+  
+    }
+    p.id-2{
+        border: px solid rgb(31, 117, 5);
+        display: flex;
+        margin-top: 25px;
+        background-color:#f9f8fe;
+        flex-flow: ;
+        
+    }
+    p.titulo{
+        text-align: center;
+        padding-block: 15px;
+    
+    }
+
+    img.icons{
+        background-color: rgb(255, 255, 255);
+        border-radius: 50%;
+    }
+    p.id{
+        background-color: #f9f8fe;
+        margin-left: 10px;
+        padding-block: 18px;
+        padding-left: 130px;
+    }
+    
+    p.rotulo-p{
+        background-color: rgb(252, 252, 252);
+        width: 50%;
+        margin: auto;
+        text-align: center;
+        margin-left: ;
+    }
+
+    
