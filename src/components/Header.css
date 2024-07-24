@@ -1,61 +1,25 @@
-h1 {
-    width: 720px;
-    height: 132px;
-    top: 498px;
-    left: 120px;
-    gap: 0px;
-    opacity: 0px;
-    font-family: Inter;
-    font-size: 64px;
-    font-weight: 400;
-    line-height: 66px;
-    letter-spacing: 0.9999998807907104px;
-    text-align: left;
+a {
+    color: inherit; /* Herda a cor do elemento pai */
+    text-decoration: none; /* Remove sublinhado */
 }
 
-h2 {
-    width: 681px;
-    height: 105px;
-    top: 754px;
-    left: 121px;
-    gap: 0px;
-    opacity: 0px;
-    font-family: Inter;
-    font-size: 48px;
-    font-weight: 400;
-    line-height: 50px;
-    letter-spacing: 0.9999998807907104px;
-    text-align: left;
+a:hover {
+    color: #C92071; /* Define a cor desejada ao passar o mouse */
 }
 
-h3 {
-    width: 415px;
-    height: 72px;
-    top: 983px;
-    left: 120px;
-    gap: 0px;
-    opacity: 0px;
-    font-family: Inter;
-    font-size: 32px;
-    font-weight: 400;
-    line-height: 36px;
-    letter-spacing: 1px;
-    text-align: left;
+/* Estilo personalizado para sublinhado */
+.custom-underline::after {
+    content: ''; /* Cria o pseudo-elemento */
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -2px; /* Ajuste este valor para definir a distância do sublinhado */
+    height: 2px; /* Espessura da linha */
+    background-color: currentColor; /* Cor do texto */
 }
 
-h4 {
-    width: 415px;
-    height: 72px;
-    top: 1179px;
-    left: 121px;
-    gap: 0px;
-    opacity: 0px;
-    font-family: Inter;
-    font-size: 28px;
-    font-weight: 400;
-    line-height: 36px;
-    letter-spacing: 2px;
-    text-align: left;
+.header {
+    align-items: center;
 }
 
 .text-digital-store {
@@ -95,7 +59,6 @@ h4 {
     left: 20px;
     gap: 0px;
     opacity: 0px;
-    /* //styleName: Text X-Small Bold; */
     font-family: Inter;
     font-size: 14px;
     font-weight: 700;
@@ -109,9 +72,6 @@ h4 {
 }
 
 .btn-1:hover {
-    /* // While hovering
-    // Change to: "hover";
-    // Animate: Smart animate; */
     animation-timing-function: ease-out;
     animation-duration: 300ms;
     background: #991956;
@@ -138,12 +98,15 @@ h4 {
 }
 
 .nav {
-    margin-top: 40px;
+    margin-top: 10px;
     gap: 74px;
+    width: 1454px;
+    align-items: start;
+    margin-left: 198px;
 }
 
 .form-control {
-    font-family: inter;
+    font-family: Inter;
     font-size: 16px;
 }
 
@@ -151,35 +114,15 @@ h4 {
     all: unset;
 }
 
-.width-535px{
+.width-535px {
     width: 504.92px;
 }
 
 .link-cadastre-se {
     font-family: Inter;
     font-size: 16px;
-    /* font-weight: 400;
-    line-height: 28px;
-    letter-spacing: 0.75px;
-    text-align: left;
-    width: 102px;
-    height: 28px;
-    top: 50px;
-    left: 991px;
-    gap: 0px;
-    opacity: 0px; */
     text-decoration: none;
     color: #474747;
-    position: relative; /* Necessário para posicionar o pseudo-elemento relativo ao texto */
-    display: inline-block; /* Necessário para que o pseudo-elemento ocupe o tamanho do texto */
-}
-
-.custom-underline::after {
-    content: ''; /* Cria o pseudo-elemento */
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: -2px; /* Ajuste este valor para definir a distância do sublinhado */
-    height: 2px; /* Espessura da linha */
-    background-color: currentColor; /* Cor do texto */
+    position: relative;
+    display: inline-block;
 }
