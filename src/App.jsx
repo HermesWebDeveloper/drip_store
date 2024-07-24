@@ -6,11 +6,13 @@ import OfertaESpecial from './components/OfertaESpecial'
 import NovasColecoes from './components/NovasColecoes'
 import Rodape from './components/Rodape'
 import Tech3 from './TECH3'
+import Carrossel from './components/Carousel'
 
 function App() {
 
   return (
     <>
+      <Carrossel />
       <Tech3 />
       <NovasColecoes></NovasColecoes>
       <OfertaESpecial />

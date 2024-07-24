@@ -1,0 +1,80 @@
+.carousel .control-dots .dot {
+    background-color: #ccc;
+}
+
+.carousel .control-dots .dot.selected {
+    background-color: #C92071;
+}
+
+.div-maior {
+    width: 1303px;
+    height: 398px;
+    top: 272px;
+    left: 100px;
+    gap: 0px;
+    opacity: 0px;
+    justify-content: space-between;
+}
+
+.slide {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    position: relative;
+}
+
+.info {
+    max-width: 50%;
+    text-align: left;
+}
+
+.yellow-text {
+    color: #F6AA1C;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 2rem;
+    margin: 10px 0;
+}
+
+p {
+    margin: 10px 0;
+    color: #6c757d;
+}
+
+.btn {
+    background-color: #E91E63;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #C2185B;
+}
+
+.image-sneakers {
+    position: relative;
+    max-width: 50%;
+}
+
+.image-sneakers img {
+    width: 100%;
+    height: auto;
+}
+
+.pontinhos {
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    top: 272px;
+    left: 1263px;
+    gap: 0px;
+    opacity: 0.4px;
+}
