@@ -19,6 +19,3 @@ function App() {
 export default App
 
 
-
-// observa o que vou te mostrar. Deu um erro monstro
-// terminal bugou
