@@ -1,3 +1,6 @@
+/* Importação da fonte Inter */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700;800&display=swap');
+
 .carousel .control-dots .dot {
     background-color: #ccc;
 }
@@ -6,22 +9,20 @@
     background-color: #C92071;
 }
 
-.div-maior {
-    width: 1303px;
-    height: 398px;
-    top: 272px;
-    left: 100px;
-    gap: 0px;
-    opacity: 0px;
-    justify-content: space-between;
-}
-
 .slide {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     padding: 20px;
-    background-color: #f9f9f9;
-    position: relative;
+    background-color: #F5F5F5;
+}
+
+.div-maior {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #F5F5F5;
 }
 
 .info {
@@ -30,13 +31,24 @@
 }
 
 .yellow-text {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.75px;
+    text-align: left;
     color: #F6AA1C;
-    font-weight: bold;
 }
 
 h1 {
-    font-size: 2rem;
+    font-family: 'Inter', sans-serif;
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 66px;
+    letter-spacing: 1px;
+    text-align: left;
     margin: 10px 0;
+    color: #333;
 }
 
 p {
@@ -45,7 +57,7 @@ p {
 }
 
 .btn {
-    background-color: #E91E63;
+    background-color: #C92071;
     color: white;
     font-weight: bold;
     padding: 10px 20px;
@@ -56,11 +68,10 @@ p {
 }
 
 .btn:hover {
-    background-color: #C2185B;
+    background-color: #C92071;
 }
 
 .image-sneakers {
-    position: relative;
     max-width: 50%;
 }
 
@@ -70,11 +81,10 @@ p {
 }
 
 .pontinhos {
-    position: absolute;
     width: 140px;
     height: 140px;
     top: 272px;
-    left: 1263px;
-    gap: 0px;
-    opacity: 0.4px;
+    right: 10px;
+    transform: translateY(-50%);
+    opacity: 0.4;
 }
