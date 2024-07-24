@@ -1,0 +1,128 @@
+a {
+    color: inherit; /* Herda a cor do elemento pai */
+    text-decoration: none; /* Remove sublinhado */
+}
+
+a:hover {
+    color: #C92071; /* Define a cor desejada ao passar o mouse */
+}
+
+/* Estilo personalizado para sublinhado */
+.custom-underline::after {
+    content: ''; /* Cria o pseudo-elemento */
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -2px; /* Ajuste este valor para definir a distância do sublinhado */
+    height: 2px; /* Espessura da linha */
+    background-color: currentColor; /* Cor do texto */
+}
+
+.header {
+    align-items: center;
+}
+
+.text-digital-store {
+    width: 212px;
+    height: 44px;
+    left: 41px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Inter;
+    font-size: 36.4px;
+    font-weight: 600;
+    line-height: 44.05px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color: #C92071;
+    margin: auto;
+    margin-left: 10.5px;
+}
+
+.mx-99px {
+    margin-left: 99px;
+    margin-right: 99px;
+}
+
+.gap-34px {
+    gap: 34px;
+}
+
+.width-559px {
+    width: 559px;
+}
+
+.btn-1 {
+    width: 158px;
+    height: 40px;
+    top: 20px;
+    left: 20px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.75px;
+    text-align: center;
+    background: #C92071;
+    color: #F5F5F5;
+    border: none;
+    border-radius: 10px;
+}
+
+.btn-1:hover {
+    animation-timing-function: ease-out;
+    animation-duration: 300ms;
+    background: #991956;
+}
+
+.ml-70px {
+    margin-left: 70px;
+}
+
+.mt-34px {
+    margin-top: 34px;
+}
+
+.nav-link {
+    color: #474747;
+}
+
+.nav-link:hover {
+    color: #C92071;
+}
+
+.active {
+    color: #C92071 !important;
+}
+
+.nav {
+    margin-top: 10px;
+    gap: 74px;
+    width: 1454px;
+    align-items: start;
+    margin-left: 198px;
+}
+
+.form-control {
+    font-family: Inter;
+    font-size: 16px;
+}
+
+.reset-style {
+    all: unset;
+}
+
+.width-535px {
+    width: 504.92px;
+}
+
+.link-cadastre-se {
+    font-family: Inter;
+    font-size: 16px;
+    text-decoration: none;
+    color: #474747;
+    position: relative;
+    display: inline-block;
+}

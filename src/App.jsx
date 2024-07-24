@@ -4,11 +4,14 @@ import OfertaESpecial from './components/OfertaESpecial'
 import Rodape from './components/Rodape'  
 import Carrossel from './components/Carousel'
 import ProductListing from './components/ProductListing'
+import Header from './components/Header'
 
 export default function App() {
 
   return (
     <>
+      <Header />
+      <NovasColecoes>
       <Carrossel />
       {/* <NovasColecoes/> */}
       <ProductListing tamanho={8} />
